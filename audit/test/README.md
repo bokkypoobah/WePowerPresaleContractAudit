@@ -1,4 +1,4 @@
-# InvestFeed Crowdsale Contract - Testing
+# Smart Contract - Testing
 
 <br />
 
