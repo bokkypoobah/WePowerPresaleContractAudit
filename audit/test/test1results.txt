@@ -1,0 +1,790 @@
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       15.000000000000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+
+Deploy MiniMeTokenFactory
+mmtfAddress=0x8970bbfd1a54ae581064ab34e7910dab7e86172f gas=4000000 gasUsed=2352199 costETH=0.042339582 costUSD=8.698751801064 @ ETH/USD=205.452 gasPrice=18000000000 block=898 txId=0xa5c3f1fce69e8266a925cc32e937b2f253468ecf5789336b8edd9b30cb8d4d18
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       25.042339582000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.042339582000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy MiniMeTokenFactory
+
+Deploy WCT
+wctAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50 gas=4000000 gasUsed=2201578 costETH=0.039628404 costUSD=8.141734858608 @ ETH/USD=205.452 gasPrice=18000000000 block=900 txId=0x32db712470b55e09dbb44e1524fd95a353ef4b56ea65ff431eec75bcf351d677
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       35.081967986000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.081967986000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy WCT
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=0
+
+Deploy PreSale
+psAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660 gas=4000000 gasUsed=1203631 costETH=0.021665358 costUSD=4.451191131816 @ ETH/USD=205.452 gasPrice=18000000000 block=902 txId=0x24bb2ef0ec288d433a0679d92570030ec2132b1b16b566566b7492244f6a86b4
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       45.103633344000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.103633344000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Deploy PreSale
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0x0000000000000000000000000000000000000000
+crowdsale.totalSupplyCap=0
+crowdsale.totalSold=0
+crowdsale.minimum_investment=0
+crowdsale.startBlock=0
+crowdsale.endBlock=0
+crowdsale.initializedBlock=0
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=0
+
+WCT ChangeController To PreSale
+wctChangeControllerTx gas=2000000 gasUsed=28230 costETH=0.00050814 costUSD=0.10439837928 @ ETH/USD=205.452 gasPrice=18000000000 block=904 txId=0x5cc2016e70f36cea06f0feea36162e74c2b2c483003c87ce7a2ea305368754f4
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       55.104141484000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.104141484000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS WCT ChangeController To PreSale
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0x0000000000000000000000000000000000000000
+crowdsale.totalSupplyCap=0
+crowdsale.totalSold=0
+crowdsale.minimum_investment=0
+crowdsale.startBlock=0
+crowdsale.endBlock=0
+crowdsale.initializedBlock=0
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=0
+
+Initialise PreSale
+initialisePresaleTx gas=2000000 gasUsed=149204 costETH=0.002685672 costUSD=0.551776683744 @ ETH/USD=205.452 gasPrice=18000000000 block=906 txId=0xf46376bed2d5397eb6efaf57fbc45c66d2b88130c1270bfd8cb139fd7b53105d
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       65.106827156000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106827156000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                    0.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Initialise PreSale
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=0
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+Initialized 0 #906: {"_now":"906"}
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=0
+
+Waiting until startBlock #909 currentBlock=906
+Waited until startBlock #909 currentBlock=910
+
+Send Valid Contribution
+validContribution1Tx gas=400000 gasUsed=136858 costETH=0.002463444 costUSD=0.506119496688 @ ETH/USD=205.452 gasPrice=18000000000 block=912 txId=0xc7ce5c6a2a76799be3cbd29e73661baef0acae80a0f418671fa6e79a78bd8bc4
+validContribution2Tx gas=400000 gasUsed=95218 costETH=0.001713924 costUSD=0.352129113648 @ ETH/USD=205.452 gasPrice=18000000000 block=912 txId=0xbe8343a544dc939912e4a20db1512496e84ddd30367cc0758f23f388f347f100
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       95.111004524000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106827156000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       97.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -87.002463444000000000          87.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                   97.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Send Valid Contribution ac3->ps 87 ETH
+PASS Send Valid Contribution ac4->wct 10 ETH
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=97
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+NewSale 0 #912: {"_amount":"87000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"87000000000000000000"}
+NewSale 1 #912: {"_amount":"10000000000000000000","_th":"0xa44a08d3f6933c69212114bb66e2df1813651844","_tokens":"10000000000000000000"}
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=97
+totalSupplyHistory(0) = 912 => 97
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+Transfer 0 #912: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=87
+Transfer 1 #912: _from=0x0000000000000000000000000000000000000000 _to=0xa44a08d3f6933c69212114bb66e2df1813651844 _amount=10
+
+Send Valid Contribution
+validContribution3Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=914 txId=0x3b1b0a94e359dce6ac67cf1ec04dfe3c4128b975fe01d2fa442630a51bc3093b
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      105.112695408000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106827156000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       98.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -88.004154328000000000          88.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                   98.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Send Valid Contribution ac3->ps 1 ETH
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=98
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+NewSale 0 #914: {"_amount":"1000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"1000000000000000000"}
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=98
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+Transfer 0 #914: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=1
+
+Send Valid Contribution
+validContribution4Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=916 txId=0x9bd0eb95e1a2bda34843a26b0ba64b8a518cf63fd2b0eaa8fc5c876d1641141a
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      115.114386292000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106827156000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Send Valid Contribution ac3->ps 3 ETH
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+NewSale 0 #916: {"_amount":"3000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"3000000000000000000"}
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+Transfer 0 #916: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=3
+
+Waiting until endBlock #924 currentBlock=916
+Waited until endBlock #924 currentBlock=925
+
+Claim Ethers But No Ethers
+claimEthersTx gas=2000000 gasUsed=2000000 costETH=0.036 costUSD=7.396272 @ ETH/USD=205.452 gasPrice=18000000000 block=927 txId=0x645da2c4b9fd4cb51573915de94d584588d84b1c8d5013303fa411b3e0d5a60b
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      170.150386292000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.142827156000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Claim Ethers But No Ethers
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=0
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+
+Finalise PreSale
+finalisePresaleTx gas=2000000 gasUsed=43092 costETH=0.000775656 costUSD=0.159360076512 @ ETH/USD=205.452 gasPrice=18000000000 block=929 txId=0x6ffd9009e96e53334df55ef32dc6fdddc1fe47da2a681cb2e3b43cfe4ac0d4f1
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      180.151161948000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143602812000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Finalise PreSale
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+Finalized 0 #929: {"_now":"929"}
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+
+Cannot Move Tokens Before allowTransfers(...)
+cannotTransfer1Tx gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.3698136 @ ETH/USD=205.452 gasPrice=18000000000 block=932 txId=0xd9248d86d7e1d9b099d421b0d0a3a028d480eeac40760ce210e5798a22dd1bce
+cannotTransfer2Tx gas=100000 gasUsed=100000 costETH=0.0018 costUSD=0.3698136 @ ETH/USD=205.452 gasPrice=18000000000 block=932 txId=0x3d318b98278df92805de4dbd83749c696635506092105046ed9f9759681cb099
+cannotTransfer3Tx gas=200000 gasUsed=25373 costETH=0.000456714 costUSD=0.093832804728 @ ETH/USD=205.452 gasPrice=18000000000 block=934 txId=0xc2468f2c416216446c9efd695956195a68e961e90ed2fdf8b696bea9c4349d44
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      205.155218662000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143602812000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.007645212000000000          91.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.003513924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.000456714000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Cannot Move Tokens Before allowTransfers(...) - transfer 0.000001 tokens ac4 -> ac6. CHECK no movement
+PASS Cannot Move Tokens Before allowTransfers(...) - ac3 approve 0.03 tokens ac5
+PASS Cannot Move Tokens Before allowTransfers(...) - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK no movement
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+
+Allow Transfers
+allowTransfersTx gas=2000000 gasUsed=42117 costETH=0.000758106 costUSD=0.155754393912 @ ETH/USD=205.452 gasPrice=18000000000 block=936 txId=0xf4458006cf4f468262bd3ef10172b6dec2962b61f17b672337a14ed1d90b165f
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      215.155976768000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.144360918000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.007645212000000000          91.000000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.003513924000000000          10.000000000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.000456714000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.000000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Allow Transfers
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+
+Can Move Tokens After allowTransfers(...)
+canTransfer1Tx gas=100000 gasUsed=96021 costETH=0.001728378 costUSD=0.355098716856 @ ETH/USD=205.452 gasPrice=18000000000 block=938 txId=0x44442a8e05f11d10d3816559985652ed70bb2a341efecea66bee24d4172067df
+canTransfer2Tx gas=100000 gasUsed=47217 costETH=0.000849906 costUSD=0.174614887512 @ ETH/USD=205.452 gasPrice=18000000000 block=938 txId=0x986199047de24ee1f92b8ce9ba5f4482e26c72cb98ad8d2d231194e524fa5681
+canTransfer3Tx gas=200000 gasUsed=87878 costETH=0.001581804 costUSD=0.324984795408 @ ETH/USD=205.452 gasPrice=18000000000 block=940 txId=0x1a4a4b10e701c2912f4808d7e79a1f751b47be856b3f591cef9a50d62b4f6ba6
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      235.160136856000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.144360918000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.008495118000000000          90.970000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.005242302000000000           9.999999000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.002038518000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000001000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.030000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Can Move Tokens After allowTransfers(...) - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement
+PASS Can Move Tokens After allowTransfers(...) - ac3 approve 0.03 tokens ac5
+PASS Can Move Tokens After allowTransfers(...) - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0x2484679c29325eaf2f2e91d661e5413d47c04660
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 940 => 90.97
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 938 => 9.999999
+Approval 0 #938 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
+Transfer 0 #938: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
+Transfer 1 #940: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
+
+Change WCT Controller
+changeControllerTx gas=2000000 gasUsed=29256 costETH=0.000526608 costUSD=0.108192666816 @ ETH/USD=205.452 gasPrice=18000000000 block=943 txId=0x8174f132f85a4398be68d395bb60ad3025f983896edbc5f9104203817cfc0692
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      250.160663464000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.144887526000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.008495118000000000          90.970000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.005242302000000000           9.999999000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.002038518000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000001000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.030000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Change WCT Controller
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 940 => 90.97
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 938 => 9.999999
+
+Can Move Tokens After Change Controller
+canTransfer4Tx gas=100000 gasUsed=81398 costETH=0.001465164 costUSD=0.301020874128 @ ETH/USD=205.452 gasPrice=18000000000 block=946 txId=0xca8eb99b7719ca6bccec26a10e5ae277fe33e38506e5f5fe09fb0103df07a980
+canTransfer5Tx gas=100000 gasUsed=46038 costETH=0.000828684 costUSD=0.170254785168 @ ETH/USD=205.452 gasPrice=18000000000 block=946 txId=0x347e9d956da51d340b4b4257462ba50cb36819015b1077f6ddf57857ce60f128
+canTransfer6Tx gas=200000 gasUsed=73255 costETH=0.00131859 costUSD=0.27090695268 @ ETH/USD=205.452 gasPrice=18000000000 block=948 txId=0x17fbafa486466e82e8b8fe68a9e101c452e05003fae33297bb75f1126c54fa9e
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      275.164275902000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.144887526000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.009323802000000000          90.940000000000000000 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.006707466000000000           9.999998000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.003357108000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000002000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.060000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                  101.000000000000000000 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Can Move Tokens After Change Controller - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement
+PASS Can Move Tokens After Change Controller - ac3 approve 0.03 tokens ac5
+PASS Can Move Tokens After Change Controller - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=101
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 940 => 90.97
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 948 => 90.94
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 938 => 9.999999
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 946 => 9.999998
+Approval 0 #946 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
+Transfer 0 #946: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
+Transfer 1 #948: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
+
+Owner Can Burn Tokens
+canBurnTx gas=200000 gasUsed=80383 costETH=0.001446894 costUSD=0.297267266088 @ ETH/USD=205.452 gasPrice=18000000000 block=951 txId=0xf206297b18bc5b1d39cdef71fc0ca5739fdf1fcb07896a6fc18fa0064b8e6703
+ # Account                                             EtherBalanceChange                          Token Name
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+ 0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      290.165722796000000000           0.000000000000000000 Account #0 - Miner
+ 1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.146334420000000000           0.000000000000000000 Account #1 - Contract Owner
+ 2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
+ 3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.009323802000000000          89.939999999999999999 Account #3
+ 4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.006707466000000000           9.999998000000000000 Account #4
+ 5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.003357108000000000           0.000000000000000000 Account #5
+ 6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000002000000000000 Account #6
+ 7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
+ 8 0xa88a05d2b88283ce84c8325760b72a64591279a2        0.000000000000000000           0.060000000000000000 Account #8
+ 9 0xa99a0ae3354c06b1459fd441a32a3f71005d7da0        0.000000000000000000           0.000000000000000000 Account #9
+10 0x8970bbfd1a54ae581064ab34e7910dab7e86172f        0.000000000000000000           0.000000000000000000 MiniMeTokenFactory
+11 0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50        0.000000000000000000           0.000000000000000000 Token 'WCT' 'WePower Contribution Token'
+12 0x2484679c29325eaf2f2e91d661e5413d47c04660        0.000000000000000000           0.000000000000000000 PreSale
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+                                                                                   99.999999999999999999 Total Token Balances
+-- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
+
+PASS Owner Can Burn Tokens
+crowdsaleContractAddress=0x2484679c29325eaf2f2e91d661e5413d47c04660
+crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+crowdsale.exchangeRate=1
+crowdsale.investor_bonus=25
+crowdsale.wct=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
+crowdsale.totalSupplyCap=1000000
+crowdsale.totalSold=101
+crowdsale.minimum_investment=1e-17
+crowdsale.startBlock=909
+crowdsale.endBlock=924
+crowdsale.initializedBlock=906
+crowdsale.finalizedBlock=929
+crowdsale.paused=false
+tokenContractAddress=0x6b8bba219f069b3dd5920e6d6958071eb9b8bc50
+token.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+token.symbol=WCT
+token.name=WePower Contribution Token
+token.decimals=18
+token.totalSupply=99.999999999999999999
+totalSupplyHistory(0) = 912 => 97
+totalSupplyHistory(1) = 914 => 98
+totalSupplyHistory(2) = 916 => 101
+totalSupplyHistory(3) = 951 => 99.999999999999999999
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 912 => 87
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 914 => 88
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 916 => 91
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 940 => 90.97
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 948 => 90.94
+balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 5) = 951 => 89.939999999999999999
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 912 => 10
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 938 => 9.999999
+balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 946 => 9.999998
+Transfer 0 #951: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0x0000000000000000000000000000000000000000 _amount=1.000000000000000001
+
