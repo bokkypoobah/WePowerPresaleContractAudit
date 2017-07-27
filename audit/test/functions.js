@@ -207,7 +207,7 @@ function printCrowdsaleContractDetails() {
     console.log("RESULT: crowdsale.initializedBlock=" + contract.initializedBlock());
     console.log("RESULT: crowdsale.finalizedBlock=" + contract.finalizedBlock());
     console.log("RESULT: crowdsale.paused=" + contract.paused());
-    console.log("RESULT: crowdsale.transfersEnabled=" + contract.transfersEnabled());
+    console.log("RESULT: crowdsale.transferable=" + contract.transferable());
     var latestBlock = eth.blockNumber;
     var i;
 

@@ -36,6 +36,8 @@ No potential vulnerabilities have been identified in the crowdsale and token con
 
 ## Recommendations
 
+### First Review
+
 * **IMPORTANT** There is the ability for the token contract owner to burn another user's tokens AFTER the PreSale is finalised
 
   In my testing results [test/test1results.txt](test/test1results.txt), the contract owner burnt an account's tokens after the PreSale was finalised:
@@ -85,11 +87,21 @@ No potential vulnerabilities have been identified in the crowdsale and token con
       PASS Owner Can Burn Tokens
       Transfer 0 #951: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0x0000000000000000000000000000000000000000 _amount=1.000000000000000001
 
-  * [ ] ACTION Review whether the token contract owner should have the ability to burn another user's tokens after the PreSale is finalised
+  * [x] ACTION Review whether the token contract owner should have the ability to burn another user's tokens after the PreSale is finalised
+
+    * [x] The ability to use this functionality has been removed in the second review
 
 * **IMPORTANT** The contract owner can also generate any number of tokens after the PreSale is finalised
 
-  * [ ] ACTION Review whether the token contract owner should have the ability to generate tokens after the PreSale is finalised
+  * [x] ACTION Review whether the token contract owner should have the ability to generate tokens after the PreSale is finalised
+
+    * [x] The ability to use this functionality has been removed in the second review
+
+<br />
+
+### Second Review
+
+There are no recommendations.
 
 <br />
 
@@ -106,7 +118,7 @@ No potential vulnerabilities have been identified in the crowdsale and token con
 ## Scope
 
 This audit is into the technical aspects of the crowdsale contracts. The primary aim of this audit is to ensure that funds contributed to
-these contracts is not easily attacked or stolen by third parties. The secondary aim of this audit is that ensure the coded algorithms work
+these contracts are not easily attacked or stolen by third parties. The secondary aim of this audit is that ensure the coded algorithms work
 as expected. This audit does not guarantee that that the code is bugfree, but intends to highlight any areas of weaknesses.
 
 <br />
@@ -160,11 +172,15 @@ audited source code, and that the deployment parameters are correctly set, inclu
   need to be set an account that no one controls like `0x0000000000000000000000000000000000000000`. Setting this `controller` to this
   "burn" address may prevent the owner executing some operations in the future.
 
-  * [ ] ACTION Review whether the token contract owner should have the ability to burn another user's tokens after the PreSale is finalised
+  * [x] ACTION Review whether the token contract owner should have the ability to burn another user's tokens after the PreSale is finalised
+
+    * [x] The ability to use this functionality has been removed in the second review
 
 * The contract owner can also generate any number of tokens after the PreSale is finalised
 
-  * [ ] ACTION Review whether the token contract owner should have the ability to generate tokens after the PreSale is finalised
+  * [x] ACTION Review whether the token contract owner should have the ability to generate tokens after the PreSale is finalised
+
+    * [x] The ability to use this functionality has been removed in the second review
 
 <br />
 
@@ -172,7 +188,7 @@ audited source code, and that the deployment parameters are correctly set, inclu
 
 ## Notes
 
-* Funds can be contributed to the WCT token contract, or the Presale contract.
+* Funds can be contributed to the WCT token contract address or the Presale contract address.
 
 * The `Presale.investor_bonus = 25` variable is unused. There is no bonus in any calculations in this set of contracts.
 
@@ -221,7 +237,7 @@ See [test/README.md](test/README.md), [test/01_test1.sh](test/01_test1.sh) and [
   * [x] `approve(...)` and `transferFrom(...)` from one account to another.
 * [x] `transfer(...)` and `transferFrom(...)` will only be enabled after the *PreSale* contract is `finalize()`d, AFTER the
   `allowTransfers(...)` is called with a `true` parameter.
-* [x] `changeController(...)` does NOT have a `acceptController()` to prevent errorneous transfers of ownership of the token contract.
+* [x] `changeController(...)` does NOT have an `acceptController()` to prevent errorneous transfers of ownership of the token contract.
   This may not be appropriate as this function may need to be called from another contract.
 * [x] ETH contributed to the crowdsale contract is NOT accumulated in the crowdsale contract.
 * [x] Any ETH or tokens accidentally sent to the *PreSale* contract can be recovered using the `claimTokens(...)` function.
@@ -244,7 +260,7 @@ See [test/README.md](test/README.md), [test/01_test1.sh](test/01_test1.sh) and [
   [short address attack](http://vessenes.com/the-erc20-short-address-attack-explained/). This technique is now NOT recommended.
 * [x] This contract implement a modified `approve(...)` functions to mitigate the risk of 
   [double spending](https://docs.google.com/document/d/1YLPtQxZu1UAvO9cZ1O2RPXBbT0mooh4DYKjA_jp-RLM/edit#) by requiring the account to set
-  a non-zero approval limit to 0 before being to modifying this limit.
+  a non-zero approval limit to 0 before being able to modify this limit.
 
 <br />
 
@@ -294,4 +310,4 @@ Outside Scope:
 
 <br />
 
-(c) BokkyPooBah / Bok Consulting Pty Ltd for WePower Network - July 26 2017. The MIT Licence.
+(c) BokkyPooBah / Bok Consulting Pty Ltd for WePower Network - July 27 2017. The MIT Licence.

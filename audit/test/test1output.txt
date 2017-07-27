@@ -20,9 +20,9 @@ DEPLOYMENTDATA       = 'deploymentData.txt'
 INCLUDEJS            = './include.js'
 TEST1OUTPUT          = 'test1output.txt'
 TEST1RESULTS         = 'test1results.txt'
-CURRENTTIME          = '1501116906' 'Thu 27 Jul 2017 00:55:06 UTC'
-STARTTIME            = '1501116981' 'Thu 27 Jul 2017 00:56:21 UTC'
-ENDTIME              = '1501117146' 'Thu 27 Jul 2017 00:59:06 UTC'
+CURRENTTIME          = '1501141508' 'Thu 27 Jul 2017 07:45:08 UTC'
+STARTTIME            = '1501141583' 'Thu 27 Jul 2017 07:46:23 UTC'
+ENDTIME              = '1501141748' 'Thu 27 Jul 2017 07:49:08 UTC'
 --- Differences ../../contracts/ERC20.sol ERC20.sol ---
 
 --- Differences ../../contracts/MiniMeToken.sol MiniMeToken.sol ---
@@ -54,7 +54,7 @@ Welcome to the Geth JavaScript console!
 
 instance: Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.8.3
 coinbase: 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
-at block: 13 (Thu, 27 Jul 2017 10:55:06 AEST)
+at block: 0 (Thu, 01 Jan 1970 10:00:00 AEST)
  datadir: /Users/bok/Projects/WePowerPresaleContractAudit/audit/test/testchain
  modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
 
@@ -96,7 +96,7 @@ undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       35.000000000000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.000000000000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -148,10 +148,10 @@ undefined
 ... 
 undefined
 > 
-RESULT: mmtfAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 gas=4000000 gasUsed=2352199 costETH=0.042339582 costUSD=8.698751801064 @ ETH/USD=205.452 gasPrice=18000000000 block=22 txId=0x20e83f7f901e6c45c5b83468ef906fd1e00aaa441b39ebc764811f50f8772bc9
+RESULT: mmtfAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 gas=4000000 gasUsed=2352199 costETH=0.042339582 costUSD=8.698751801064 @ ETH/USD=205.452 gasPrice=18000000000 block=2 txId=0x20e83f7f901e6c45c5b83468ef906fd1e00aaa441b39ebc764811f50f8772bc9
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       45.042339582000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       10.042339582000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.042339582000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -209,10 +209,10 @@ undefined
 ... 
 undefined
 > 
-RESULT: wctAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d gas=4000000 gasUsed=2201578 costETH=0.039628404 costUSD=8.141734858608 @ ETH/USD=205.452 gasPrice=18000000000 block=24 txId=0x5eb4b50f3224630422b4caa9f89b2b4e16c0925f6943ea7c0429c67c78db2fce
+RESULT: wctAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d gas=4000000 gasUsed=2201578 costETH=0.039628404 costUSD=8.141734858608 @ ETH/USD=205.452 gasPrice=18000000000 block=4 txId=0x5eb4b50f3224630422b4caa9f89b2b4e16c0925f6943ea7c0429c67c78db2fce
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       55.081967986000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       20.081967986000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.081967986000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -278,10 +278,10 @@ undefined
 ... 
 undefined
 > 
-RESULT: psAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff gas=4000000 gasUsed=1183435 costETH=0.02130183 costUSD=4.37650357716 @ ETH/USD=205.452 gasPrice=18000000000 block=26 txId=0x59d45d6e8bdf0a5b0887d9de9cacb4d344b6a259506f123be4f401170da02ffd
+RESULT: psAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff gas=4000000 gasUsed=1183435 costETH=0.02130183 costUSD=4.37650357716 @ ETH/USD=205.452 gasPrice=18000000000 block=6 txId=0x59d45d6e8bdf0a5b0887d9de9cacb4d344b6a259506f123be4f401170da02ffd
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       65.103269816000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       30.103269816000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.103269816000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -317,6 +317,7 @@ RESULT: crowdsale.endBlock=0
 RESULT: crowdsale.initializedBlock=0
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -346,12 +347,12 @@ undefined
 ... 
 undefined
 > 
-RESULT: wctChangeControllerTx gas=2000000 gasUsed=28230 costETH=0.00050814 costUSD=0.10439837928 @ ETH/USD=205.452 gasPrice=18000000000 block=30 txId=0x6f0b8f6d4a43af8d277713c95179e0c012b448b1c38ce56621c13656ed711e99
+RESULT: wctChangeControllerTx gas=2000000 gasUsed=28230 costETH=0.00050814 costUSD=0.10439837928 @ ETH/USD=205.452 gasPrice=18000000000 block=10 txId=0x6f0b8f6d4a43af8d277713c95179e0c012b448b1c38ce56621c13656ed711e99
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       85.103777956000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       50.103777956000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.103777956000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -387,6 +388,7 @@ RESULT: crowdsale.endBlock=0
 RESULT: crowdsale.initializedBlock=0
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -427,12 +429,12 @@ undefined
 ... 
 undefined
 > 
-RESULT: initialisePresaleTx gas=2000000 gasUsed=149054 costETH=0.002682972 costUSD=0.551221963344 @ ETH/USD=205.452 gasPrice=18000000000 block=33 txId=0xbf823ea60f9e56f2f7ab71c52079c4aba6ac2b765d591ef951c66d3af942f8b6
+RESULT: initialisePresaleTx gas=2000000 gasUsed=149054 costETH=0.002682972 costUSD=0.551221963344 @ ETH/USD=205.452 gasPrice=18000000000 block=12 txId=0x8a2a11ab1bad365b0bf0950131f60e23d93787c823d23093d292fbe6b37d77e3
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      100.106460928000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       60.106460928000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106460928000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.000000000000000000 Account #2 - Multisig
 RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.000000000000000000 Account #3
@@ -463,12 +465,13 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=0
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
-RESULT: Initialized 0 #33: {"_now":"33"}
+RESULT: crowdsale.transferable=false
+RESULT: Initialized 0 #12: {"_now":"12"}
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -490,13 +493,13 @@ undefined
 > 
 undefined
 > 
-RESULT: Waiting until startBlock #36 currentBlock=35
+RESULT: Waiting until startBlock #15 currentBlock=13
 undefined
 > 
 ... 
 undefined
 > 
-RESULT: Waited until startBlock #36 currentBlock=37
+RESULT: Waited until startBlock #15 currentBlock=16
 undefined
 > 
 RESULT: 
@@ -520,19 +523,19 @@ undefined
 ... 
 undefined
 > 
-RESULT: validContribution1Tx gas=400000 gasUsed=136858 costETH=0.002463444 costUSD=0.506119496688 @ ETH/USD=205.452 gasPrice=18000000000 block=39 txId=0xc6770a20892b09173683196c6a4778802f2b03fa200aecba203b36ee1d450f4a
+RESULT: validContribution1Tx gas=400000 gasUsed=87289 costETH=0.001571202 costUSD=0.322806593304 @ ETH/USD=205.452 gasPrice=18000000000 block=18 txId=0xc6770a20892b09173683196c6a4778802f2b03fa200aecba203b36ee1d450f4a
 undefined
 > 
-RESULT: validContribution2Tx gas=400000 gasUsed=95196 costETH=0.001713528 costUSD=0.352047754656 @ ETH/USD=205.452 gasPrice=18000000000 block=39 txId=0x96d6a13ed07c61330b5a1c7205ca6dd6de491e50a231cb7b76834446b5198bc0
+RESULT: validContribution2Tx gas=400000 gasUsed=144765 costETH=0.00260577 costUSD=0.53536065804 @ ETH/USD=205.452 gasPrice=18000000000 block=18 txId=0x96d6a13ed07c61330b5a1c7205ca6dd6de491e50a231cb7b76834446b5198bc0
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      130.110637900000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       90.110637900000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106460928000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       97.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -87.002463444000000000          87.000000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713528000000000          10.000000000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -87.001571202000000000          87.000000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.002605770000000000          10.000000000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -562,13 +565,14 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=97
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
-RESULT: NewSale 0 #39: {"_amount":"87000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"87000000000000000000"}
-RESULT: NewSale 1 #39: {"_amount":"10000000000000000000","_th":"0xa44a08d3f6933c69212114bb66e2df1813651844","_tokens":"10000000000000000000"}
+RESULT: crowdsale.transferable=false
+RESULT: NewSale 0 #18: {"_amount":"10000000000000000000","_th":"0xa44a08d3f6933c69212114bb66e2df1813651844","_tokens":"10000000000000000000"}
+RESULT: NewSale 1 #18: {"_amount":"87000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"87000000000000000000"}
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -577,11 +581,11 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=97
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: Transfer 0 #39: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=87
-RESULT: Transfer 1 #39: _from=0x0000000000000000000000000000000000000000 _to=0xa44a08d3f6933c69212114bb66e2df1813651844 _amount=10
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: Transfer 0 #18: _from=0x0000000000000000000000000000000000000000 _to=0xa44a08d3f6933c69212114bb66e2df1813651844 _amount=10
+RESULT: Transfer 1 #18: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=87
 undefined
 > 
 RESULT: 
@@ -603,16 +607,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: validContribution3Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=41 txId=0x645a6374bd8f99b9b38f650674b4a7ea10c8918332b0538e4ff0e973d8e07b09
+RESULT: validContribution3Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=22 txId=0x645a6374bd8f99b9b38f650674b4a7ea10c8918332b0538e4ff0e973d8e07b09
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      140.112328784000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      110.112328784000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106460928000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       98.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -88.004154328000000000          88.000000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713528000000000          10.000000000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -88.003262086000000000          88.000000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.002605770000000000          10.000000000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -639,12 +643,13 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=98
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
-RESULT: NewSale 0 #41: {"_amount":"1000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"1000000000000000000"}
+RESULT: crowdsale.transferable=false
+RESULT: NewSale 0 #22: {"_amount":"1000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"1000000000000000000"}
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -653,12 +658,12 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=98
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: Transfer 0 #41: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=1
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: Transfer 0 #22: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=1
 undefined
 > 
 RESULT: 
@@ -680,16 +685,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: validContribution4Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=43 txId=0x6bc59404fb5e9ff922c9f9964e07c0f6eba6fc6586d0ababe773e4e08d62e455
+RESULT: validContribution4Tx gas=400000 gasUsed=93938 costETH=0.001690884 costUSD=0.347395499568 @ ETH/USD=205.452 gasPrice=18000000000 block=26 txId=0x6bc59404fb5e9ff922c9f9964e07c0f6eba6fc6586d0ababe773e4e08d62e455
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      150.114019668000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      130.114019668000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.106460928000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713528000000000          10.000000000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.004952970000000000          91.000000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.002605770000000000          10.000000000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -716,12 +721,13 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
-RESULT: NewSale 0 #43: {"_amount":"3000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"3000000000000000000"}
+RESULT: crowdsale.transferable=false
+RESULT: NewSale 0 #26: {"_amount":"3000000000000000000","_th":"0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","_tokens":"3000000000000000000"}
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -730,14 +736,14 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: Transfer 0 #43: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=3
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: Transfer 0 #26: _from=0x0000000000000000000000000000000000000000 _to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _amount=3
 undefined
 > 
 RESULT: 
@@ -751,13 +757,13 @@ undefined
 > 
 undefined
 > 
-RESULT: Waiting until endBlock #51 currentBlock=45
+RESULT: Waiting until endBlock #30 currentBlock=27
 undefined
 > 
 ... 
 undefined
 > 
-RESULT: Waited until endBlock #51 currentBlock=52
+RESULT: Waited until endBlock #30 currentBlock=31
 undefined
 > 
 RESULT: 
@@ -779,16 +785,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: claimEthersTx gas=2000000 gasUsed=2000000 costETH=0.036 costUSD=7.396272 @ ETH/USD=205.452 gasPrice=18000000000 block=54 txId=0xd895ae0c210f493f3a6e58abf85309d7d02cb1dd21654cc1f0746df95091739d
+RESULT: claimEthersTx gas=2000000 gasUsed=2000000 costETH=0.036 costUSD=7.396272 @ ETH/USD=205.452 gasPrice=18000000000 block=33 txId=0xd895ae0c210f493f3a6e58abf85309d7d02cb1dd21654cc1f0746df95091739d
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      205.150019668000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      165.150019668000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.142460928000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713528000000000          10.000000000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.004952970000000000          91.000000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.002605770000000000          10.000000000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -815,11 +821,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
 RESULT: crowdsale.finalizedBlock=0
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -828,13 +835,13 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
 undefined
 > 
 RESULT: 
@@ -856,16 +863,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: finalisePresaleTx gas=2000000 gasUsed=33955 costETH=0.00061119 costUSD=0.12557020788 @ ETH/USD=205.452 gasPrice=18000000000 block=56 txId=0xd6e67f6678ad664eb146ea56ba91da45b43e1db3e18ac46b2000bc9f7efacd9f
+RESULT: finalisePresaleTx gas=2000000 gasUsed=33955 costETH=0.00061119 costUSD=0.12557020788 @ ETH/USD=205.452 gasPrice=18000000000 block=37 txId=0xd6e67f6678ad664eb146ea56ba91da45b43e1db3e18ac46b2000bc9f7efacd9f
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      215.150630858000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      190.150630858000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143072118000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005845212000000000          91.000000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.001713528000000000          10.000000000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.004952970000000000          91.000000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.002605770000000000          10.000000000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -892,12 +899,13 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
-RESULT: Finalized 0 #56: {"_now":"56"}
+RESULT: crowdsale.transferable=false
+RESULT: Finalized 0 #37: {"_now":"37"}
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -906,13 +914,13 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
 undefined
 > 
 RESULT: 
@@ -926,7 +934,7 @@ undefined
 > 
 undefined
 > 
-RESULT: Cannot Move Tokens Before allowTransfers(...)
+RESULT: Can Move Tokens After PreSale finalize()
 undefined
 > 
 undefined
@@ -941,22 +949,22 @@ undefined
 ... 
 undefined
 > 
-RESULT: cannotTransfer1Tx gas=100000 gasUsed=95081 costETH=0.001711458 costUSD=0.351622469016 @ ETH/USD=205.452 gasPrice=18000000000 block=59 txId=0xd99d5076bde5106284ffe421cfeb60f6188f0b5600c19efaf8ab6994c744b8f5
+RESULT: canTransfer1Tx gas=100000 gasUsed=95081 costETH=0.001711458 costUSD=0.351622469016 @ ETH/USD=205.452 gasPrice=18000000000 block=40 txId=0xd99d5076bde5106284ffe421cfeb60f6188f0b5600c19efaf8ab6994c744b8f5
 undefined
 > 
-RESULT: cannotTransfer2Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=59 txId=0xa608665a921e31454c5dd230c4ebb53054996a7ed5efc1b1a368b966a758cd7b
+RESULT: canTransfer2Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=40 txId=0xa608665a921e31454c5dd230c4ebb53054996a7ed5efc1b1a368b966a758cd7b
 undefined
 > 
-RESULT: cannotTransfer3Tx gas=200000 gasUsed=86938 costETH=0.001564884 costUSD=0.321508547568 @ ETH/USD=205.452 gasPrice=18000000000 block=61 txId=0xbdb7dd7c410265775c32dbdd2c89beb59a52abf4ee3922d1e20597b7c871a116
+RESULT: canTransfer3Tx gas=200000 gasUsed=86938 costETH=0.001564884 costUSD=0.321508547568 @ ETH/USD=205.452 gasPrice=18000000000 block=42 txId=0xbdb7dd7c410265775c32dbdd2c89beb59a52abf4ee3922d1e20597b7c871a116
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      245.154735452000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      210.154735452000000000           0.000000000000000000 Account #0 - Miner
 RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143072118000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.006673464000000000          90.970000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.003424986000000000           9.999999000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005781222000000000          90.970000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.004317228000000000           9.999999000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.001564884000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000001000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -971,13 +979,13 @@ RESULT: -- ------------------------------------------ --------------------------
 RESULT: 
 undefined
 > 
-RESULT: FAIL Cannot Move Tokens Before allowTransfers(...) - transfer 0.000001 tokens ac4 -> ac6. CHECK no movement
-0
+RESULT: PASS Can Move Tokens After PreSale finalize() - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement
+1
 > 
-RESULT: FAIL Cannot Move Tokens Before allowTransfers(...) - ac3 approve 0.03 tokens ac5
-0
+RESULT: PASS Can Move Tokens After PreSale finalize() - ac3 approve 0.03 tokens ac5
+1
 > 
-RESULT: PASS Cannot Move Tokens Before allowTransfers(...) - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK no movement
+RESULT: PASS Can Move Tokens After PreSale finalize() - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement
 1
 > 
 RESULT: crowdsaleContractAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff
@@ -989,11 +997,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -1002,18 +1011,18 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 61 => 90.97
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 59 => 9.999999
-RESULT: Approval 0 #59 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
-RESULT: Transfer 0 #59: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
-RESULT: Transfer 1 #61: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 42 => 90.97
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 40 => 9.999999
+RESULT: Approval 0 #40 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
+RESULT: Transfer 0 #40: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
+RESULT: Transfer 1 #42: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
 undefined
 > 
 RESULT: 
@@ -1027,7 +1036,7 @@ undefined
 > 
 undefined
 > 
-RESULT: Allow Transfers
+RESULT: Cannot Disable Transfers Using PreSale.allowTransfers(false) After PreSale.finalize()
 undefined
 > 
 undefined
@@ -1035,16 +1044,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: allowTransfersTx gas=2000000 gasUsed=42117 costETH=0.000758106 costUSD=0.155754393912 @ ETH/USD=205.452 gasPrice=18000000000 block=64 txId=0x9c2d41b27541a8d7b12924505cd87ee221cfb8b781e4ade425d4777d31675c86
+RESULT: disallowTransfersTx gas=2000000 gasUsed=27053 costETH=0.000486954 costUSD=0.100045673208 @ ETH/USD=205.452 gasPrice=18000000000 block=45 txId=0x0ee6d12c8d951cac9b8b9e3e1c3c77bcf91ebddcb4f6899dc9ca00474736a454
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      255.155493558000000000           0.000000000000000000 Account #0 - Miner
-RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143830224000000000           0.000000000000000000 Account #1 - Contract Owner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      225.155222406000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143559072000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.006673464000000000          90.970000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.003424986000000000           9.999999000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.005781222000000000          90.970000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.004317228000000000           9.999999000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.001564884000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000001000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -1059,7 +1068,7 @@ RESULT: -- ------------------------------------------ --------------------------
 RESULT: 
 undefined
 > 
-RESULT: PASS Allow Transfers
+RESULT: PASS Cannot Disable Transfers Using PreSale.allowTransfers(false) After PreSale.finalize()
 1
 > 
 RESULT: crowdsaleContractAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff
@@ -1071,11 +1080,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -1084,15 +1094,15 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 61 => 90.97
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 59 => 9.999999
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 42 => 90.97
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 40 => 9.999999
 undefined
 > 
 RESULT: 
@@ -1106,7 +1116,7 @@ undefined
 > 
 undefined
 > 
-RESULT: Can Move Tokens After allowTransfers(...)
+RESULT: Can Still Move Tokens After PreSale.allowTransfers(false)
 undefined
 > 
 undefined
@@ -1121,22 +1131,22 @@ undefined
 ... 
 undefined
 > 
-RESULT: canTransfer1Tx gas=100000 gasUsed=81374 costETH=0.001464732 costUSD=0.300932118864 @ ETH/USD=205.452 gasPrice=18000000000 block=66 txId=0x00989ce97fb719dc3cec9e57d8d849ce9ea660b5d2835f2080b89ec9b2edf5fd
+RESULT: canTransfer4Tx gas=100000 gasUsed=81374 costETH=0.001464732 costUSD=0.300932118864 @ ETH/USD=205.452 gasPrice=18000000000 block=48 txId=0x00989ce97fb719dc3cec9e57d8d849ce9ea660b5d2835f2080b89ec9b2edf5fd
 undefined
 > 
-RESULT: canTransfer2Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=66 txId=0x9a941ed9137a0fb54d64daaeb26df959cf95cc6eb911388c0123eb9d591c7c73
+RESULT: canTransfer5Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=48 txId=0x9a941ed9137a0fb54d64daaeb26df959cf95cc6eb911388c0123eb9d591c7c73
 undefined
 > 
-RESULT: canTransfer3Tx gas=200000 gasUsed=73231 costETH=0.001318158 costUSD=0.270818197416 @ ETH/USD=205.452 gasPrice=18000000000 block=68 txId=0xbce549a5ffc9e74babd9a7e65cd0a4a8a13dc04e5c679683f0e0dac022487ca5
+RESULT: canTransfer6Tx gas=200000 gasUsed=73231 costETH=0.001318158 costUSD=0.270818197416 @ ETH/USD=205.452 gasPrice=18000000000 block=50 txId=0xbce549a5ffc9e74babd9a7e65cd0a4a8a13dc04e5c679683f0e0dac022487ca5
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      275.159104700000000000           0.000000000000000000 Account #0 - Miner
-RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143830224000000000           0.000000000000000000 Account #1 - Contract Owner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      250.158833548000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143559072000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.007501716000000000          90.940000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.004889718000000000           9.999998000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.006609474000000000          90.940000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.005781960000000000           9.999998000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.002883042000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000002000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -1151,13 +1161,13 @@ RESULT: -- ------------------------------------------ --------------------------
 RESULT: 
 undefined
 > 
-RESULT: PASS Can Move Tokens After allowTransfers(...) - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement
+RESULT: PASS Can Still Move Tokens After PreSale.allowTransfers(false) - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement
 1
 > 
-RESULT: PASS Can Move Tokens After allowTransfers(...) - ac3 approve 0.03 tokens ac5
+RESULT: PASS Can Still Move Tokens After PreSale.allowTransfers(false) - ac3 approve 0.03 tokens ac5
 1
 > 
-RESULT: PASS Can Move Tokens After allowTransfers(...) - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement
+RESULT: PASS Can Still Move Tokens After PreSale.allowTransfers(false) - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement
 1
 > 
 RESULT: crowdsaleContractAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff
@@ -1169,11 +1179,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -1182,20 +1193,20 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 61 => 90.97
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 68 => 90.94
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 59 => 9.999999
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 66 => 9.999998
-RESULT: Approval 0 #66 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
-RESULT: Transfer 0 #66: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
-RESULT: Transfer 1 #68: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 42 => 90.97
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 50 => 90.94
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 40 => 9.999999
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 48 => 9.999998
+RESULT: Approval 0 #48 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
+RESULT: Transfer 0 #48: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
+RESULT: Transfer 1 #50: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
 undefined
 > 
 RESULT: 
@@ -1244,22 +1255,22 @@ undefined
 ... 
 undefined
 > 
-RESULT: canTransfer4Tx gas=100000 gasUsed=81374 costETH=0.001464732 costUSD=0.300932118864 @ ETH/USD=205.452 gasPrice=18000000000 block=71 txId=0xee4ee615df27e94c2871ee348912fb0e08338066249889d98cf26bb9f668e0a0
+RESULT: canTransfer4Tx gas=100000 gasUsed=81374 costETH=0.001464732 costUSD=0.300932118864 @ ETH/USD=205.452 gasPrice=18000000000 block=52 txId=0xee4ee615df27e94c2871ee348912fb0e08338066249889d98cf26bb9f668e0a0
 undefined
 > 
-RESULT: canTransfer5Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=71 txId=0x32df82231eeeed8d426bdcae3321e009cb25efe4ad4b56290f16e9cd28511783
+RESULT: canTransfer5Tx gas=100000 gasUsed=46014 costETH=0.000828252 costUSD=0.170166029904 @ ETH/USD=205.452 gasPrice=18000000000 block=52 txId=0x32df82231eeeed8d426bdcae3321e009cb25efe4ad4b56290f16e9cd28511783
 undefined
 > 
-RESULT: canTransfer6Tx gas=200000 gasUsed=73231 costETH=0.001318158 costUSD=0.270818197416 @ ETH/USD=205.452 gasPrice=18000000000 block=73 txId=0xa45d652e82e20a7874c406e4d8b66b9feafce1ef042d4e0c3c302211183fc7eb
+RESULT: canTransfer6Tx gas=200000 gasUsed=73231 costETH=0.001318158 costUSD=0.270818197416 @ ETH/USD=205.452 gasPrice=18000000000 block=54 txId=0xa45d652e82e20a7874c406e4d8b66b9feafce1ef042d4e0c3c302211183fc7eb
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      300.162715842000000000           0.000000000000000000 Account #0 - Miner
-RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143830224000000000           0.000000000000000000 Account #1 - Contract Owner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      270.162444690000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.143559072000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.008329968000000000          90.910000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.006354450000000000           9.999997000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.007437726000000000          90.910000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.007246692000000000           9.999997000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.004201200000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000003000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -1292,11 +1303,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -1305,22 +1317,22 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 61 => 90.97
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 68 => 90.94
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 5) = 73 => 90.91
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 59 => 9.999999
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 66 => 9.999998
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 3) = 71 => 9.999997
-RESULT: Approval 0 #71 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
-RESULT: Transfer 0 #71: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
-RESULT: Transfer 1 #73: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 42 => 90.97
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 50 => 90.94
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 5) = 54 => 90.91
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 40 => 9.999999
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 48 => 9.999998
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 3) = 52 => 9.999997
+RESULT: Approval 0 #52 _owner=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _spender=0xa55a151eb00fded1634d27d1127b4be4627079ea _amount=0.03
+RESULT: Transfer 0 #52: _from=0xa44a08d3f6933c69212114bb66e2df1813651844 _to=0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9 _amount=0.000001
+RESULT: Transfer 1 #54: _from=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 _to=0xa88a05d2b88283ce84c8325760b72a64591279a2 _amount=0.03
 undefined
 > 
 RESULT: 
@@ -1334,7 +1346,7 @@ undefined
 > 
 undefined
 > 
-RESULT: Owner Can Burn Tokens
+RESULT: Owner Cannot Burn Tokens
 undefined
 > 
 undefined
@@ -1342,16 +1354,16 @@ undefined
 ... 
 undefined
 > 
-RESULT: canBurnTx gas=200000 gasUsed=200000 costETH=0.0036 costUSD=0.7396272 @ ETH/USD=205.452 gasPrice=18000000000 block=77 txId=0x70a88545ebd352c0a4b08228963e393ae5ac010766924e4109aaa0ac28e63510
+RESULT: canBurnTx gas=200000 gasUsed=200000 costETH=0.0036 costUSD=0.7396272 @ ETH/USD=205.452 gasPrice=18000000000 block=59 txId=0x70a88545ebd352c0a4b08228963e393ae5ac010766924e4109aaa0ac28e63510
 undefined
 > 
 RESULT:  # Account                                             EtherBalanceChange                          Token Name
 RESULT: -- ------------------------------------------ --------------------------- ------------------------------ ---------------------------
-RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      320.166315842000000000           0.000000000000000000 Account #0 - Miner
-RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.147430224000000000           0.000000000000000000 Account #1 - Contract Owner
+RESULT:  0 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      295.166044690000000000           0.000000000000000000 Account #0 - Miner
+RESULT:  1 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.147159072000000000           0.000000000000000000 Account #1 - Contract Owner
 RESULT:  2 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976      101.000000000000000000           0.000000000000000000 Account #2 - Multisig
-RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.008329968000000000          90.910000000000000000 Account #3
-RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.006354450000000000           9.999997000000000000 Account #4
+RESULT:  3 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0      -91.007437726000000000          90.910000000000000000 Account #3
+RESULT:  4 0xa44a08d3f6933c69212114bb66e2df1813651844      -10.007246692000000000           9.999997000000000000 Account #4
 RESULT:  5 0xa55a151eb00fded1634d27d1127b4be4627079ea       -0.004201200000000000           0.000000000000000000 Account #5
 RESULT:  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000003000000000000 Account #6
 RESULT:  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000 Account #7
@@ -1366,8 +1378,8 @@ RESULT: -- ------------------------------------------ --------------------------
 RESULT: 
 undefined
 > 
-RESULT: FAIL Owner Can Burn Tokens
-0
+RESULT: PASS Owner Cannot Burn Tokens
+1
 > 
 RESULT: crowdsaleContractAddress=0xdf9f36fd5654d92e0844c78d2d2dd562404cd1ff
 RESULT: crowdsale.controller=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
@@ -1378,11 +1390,12 @@ RESULT: crowdsale.preSaleWallet=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976
 RESULT: crowdsale.totalSupplyCap=1000000
 RESULT: crowdsale.totalSold=101
 RESULT: crowdsale.minimum_investment=1e-17
-RESULT: crowdsale.startBlock=36
-RESULT: crowdsale.endBlock=51
-RESULT: crowdsale.initializedBlock=33
-RESULT: crowdsale.finalizedBlock=56
+RESULT: crowdsale.startBlock=15
+RESULT: crowdsale.endBlock=30
+RESULT: crowdsale.initializedBlock=12
+RESULT: crowdsale.finalizedBlock=37
 RESULT: crowdsale.paused=false
+RESULT: crowdsale.transferable=false
 undefined
 > 
 RESULT: tokenContractAddress=0x0e946b999033257976aa5cbe0e3530618ca1582d
@@ -1391,19 +1404,19 @@ RESULT: token.symbol=WCT
 RESULT: token.name=WePower Contribution Token
 RESULT: token.decimals=18
 RESULT: token.totalSupply=101
-RESULT: totalSupplyHistory(0) = 39 => 97
-RESULT: totalSupplyHistory(1) = 41 => 98
-RESULT: totalSupplyHistory(2) = 43 => 101
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 39 => 87
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 41 => 88
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 43 => 91
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 61 => 90.97
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 68 => 90.94
-RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 5) = 73 => 90.91
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 39 => 10
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 59 => 9.999999
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 66 => 9.999998
-RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 3) = 71 => 9.999997
+RESULT: totalSupplyHistory(0) = 18 => 97
+RESULT: totalSupplyHistory(1) = 22 => 98
+RESULT: totalSupplyHistory(2) = 26 => 101
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 0) = 18 => 87
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 1) = 22 => 88
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 2) = 26 => 91
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 3) = 42 => 90.97
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 4) = 50 => 90.94
+RESULT: balanceHistory(0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0, 5) = 54 => 90.91
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 0) = 18 => 10
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 1) = 40 => 9.999999
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 2) = 48 => 9.999998
+RESULT: balanceHistory(0xa44a08d3f6933c69212114bb66e2df1813651844, 3) = 52 => 9.999997
 undefined
 > 
 RESULT: 
