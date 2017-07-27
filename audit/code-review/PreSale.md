@@ -2,6 +2,13 @@
 
 Source file [../../contracts/PreSale.sol](../../contracts/PreSale.sol)
 
+First review commit [https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02](https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02).
+
+Second review commit [https://github.com/WePowerNetwork/wepower-contracts/commit/7a29036dc9f0b6f52d4516daa683acdd6e6c0ace](https://github.com/WePowerNetwork/wepower-contracts/commit/7a29036dc9f0b6f52d4516daa683acdd6e6c0ace).
+
+The changes for the second review commit are in response the the recommendation below -
+[https://github.com/bokkypoobah/WePowerPresaleContractAudit/pull/1/commits/26e6b1fc008326b588e3c3875018e880570bb3cf](https://github.com/bokkypoobah/WePowerPresaleContractAudit/pull/1/commits/26e6b1fc008326b588e3c3875018e880570bb3cf).
+
 <br />
 
 <hr />
@@ -274,6 +281,9 @@ contract PreSale is Controlled, TokenController {
     // BK Ok
     assert(msg.sender == controller || getBlockNumber() > endBlock || tokensForSale() == 0);
 
+	// Bk Ok - Set the token contract controller to 0x0 so no one has ownership of this contract
+    wct.changeController(0x0);
+
     // BK Ok - Store the block number when these contracts where finalised 
     finalizedBlock = getBlockNumber();
 
@@ -351,13 +361,6 @@ contract PreSale is Controlled, TokenController {
 
   function allowTransfers(bool _transferable) onlyController {
     transferable = _transferable;
-  }
-
-  /// @notice The owner of this contract can change the controller of the WCT token
-  ///  Please, be sure that the owner is a trusted agent or 0x0 address.
-  /// @param _newController The address of the new controller
-  function changeWCTController(address _newController) public onlyController {
-    wct.changeController(_newController);
   }
 
   // BK Next 4 Ok

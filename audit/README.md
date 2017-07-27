@@ -2,7 +2,12 @@
 
 This is an audit of [WePower Network's crowdsale](https://wepower.network/) PreSale contracts.
 
-Commit [https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02](https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02).
+First review commit [https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02](https://github.com/WePowerNetwork/wepower-contracts/commit/f93672427192402fb0eff20cd355db5cf981fa02).
+
+Second review commit [https://github.com/WePowerNetwork/wepower-contracts/commit/7a29036dc9f0b6f52d4516daa683acdd6e6c0ace](https://github.com/WePowerNetwork/wepower-contracts/commit/7a29036dc9f0b6f52d4516daa683acdd6e6c0ace).
+
+The changes for the second review commit are in response the the recommendation below -
+[https://github.com/bokkypoobah/WePowerPresaleContractAudit/pull/1/commits/26e6b1fc008326b588e3c3875018e880570bb3cf](https://github.com/bokkypoobah/WePowerPresaleContractAudit/pull/1/commits/26e6b1fc008326b588e3c3875018e880570bb3cf).
 
 No potential vulnerabilities have been identified in the crowdsale and token contract.
 

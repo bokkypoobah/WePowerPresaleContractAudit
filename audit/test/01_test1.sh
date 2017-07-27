@@ -367,38 +367,38 @@ console.log("RESULT: ");
 
 
 // -----------------------------------------------------------------------------
-var cannotTransferMessage = "Cannot Move Tokens Before allowTransfers(...)";
+var canTransferMessage = "Can Move Tokens After PreSale finalize()";
 // -----------------------------------------------------------------------------
-console.log("RESULT: " + cannotTransferMessage);
-var cannotTransfer1Tx = wct.transfer(account6, "1000000000000", {from: account4, gas: 100000});
-var cannotTransfer2Tx = wct.approve(account5,  "30000000000000000", {from: account3, gas: 100000});
+console.log("RESULT: " + canTransferMessage);
+var canTransfer1Tx = wct.transfer(account6, "1000000000000", {from: account4, gas: 100000});
+var canTransfer2Tx = wct.approve(account5,  "30000000000000000", {from: account3, gas: 100000});
 while (txpool.status.pending > 0) {
 }
-var cannotTransfer3Tx = wct.transferFrom(account3, account8, "30000000000000000", {from: account5, gas: 200000});
+var canTransfer3Tx = wct.transferFrom(account3, account8, "30000000000000000", {from: account5, gas: 200000});
 while (txpool.status.pending > 0) {
 }
-printTxData("cannotTransfer1Tx", cannotTransfer1Tx);
-printTxData("cannotTransfer2Tx", cannotTransfer2Tx);
-printTxData("cannotTransfer3Tx", cannotTransfer3Tx);
+printTxData("canTransfer1Tx", canTransfer1Tx);
+printTxData("canTransfer2Tx", canTransfer2Tx);
+printTxData("canTransfer3Tx", cannotTransfer3Tx);
 printBalances();
-passIfGasEqualsGasUsed(cannotTransfer1Tx, cannotTransferMessage + " - transfer 0.000001 tokens ac4 -> ac6. CHECK no movement");
-passIfGasEqualsGasUsed(cannotTransfer2Tx, cannotTransferMessage + " - ac3 approve 0.03 tokens ac5");
-failIfGasEqualsGasUsed(cannotTransfer3Tx, cannotTransferMessage + " - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK no movement");
+passIfGasEqualsGasUsed(canTransfer1Tx, canTransferMessage + " - transfer 0.000001 tokens ac4 -> ac6. CHECK for movement");
+passIfGasEqualsGasUsed(canTransfer2Tx, canTransferMessage + " - ac3 approve 0.03 tokens ac5");
+failIfGasEqualsGasUsed(canTransfer3Tx, canTransferMessage + " - ac5 transferFrom 0.03 tokens ac3 -> ac8. CHECK for movement");
 printCrowdsaleContractDetails();
 printTokenContractDetails();
 console.log("RESULT: ");
 
 
 // -----------------------------------------------------------------------------
-var allowTransfersMessage = "Allow Transfers";
+var disallowTransfersMessage = "Cannot Disable Transfers Using PreSale.allowTransfers(false) After PreSale.finalize()";
 // -----------------------------------------------------------------------------
-console.log("RESULT: " + allowTransfersMessage);
-var allowTransfersTx = ps.allowTransfers(true, {from: contractOwnerAccount, gas: 2000000});
+console.log("RESULT: " + disallowTransfersMessage);
+var disallowTransfersTx = ps.allowTransfers(false, {from: contractOwnerAccount, gas: 2000000});
 while (txpool.status.pending > 0) {
 }
-printTxData("allowTransfersTx", allowTransfersTx);
+printTxData("disallowTransfersTx", disallowTransfersTx);
 printBalances();
-failIfGasEqualsGasUsed(allowTransfersTx, allowTransfersMessage);
+failIfGasEqualsGasUsed(disallowTransfersTx, disallowTransfersMessage);
 printCrowdsaleContractDetails();
 printTokenContractDetails();
 console.log("RESULT: ");
@@ -427,6 +427,8 @@ printTokenContractDetails();
 console.log("RESULT: ");
 
 
+// Removed in the second commit
+if (false) {
 // -----------------------------------------------------------------------------
 var changeControllerMessage = "Change WCT Controller";
 // -----------------------------------------------------------------------------
@@ -440,6 +442,7 @@ failIfGasEqualsGasUsed(changeControllerTx, changeControllerMessage);
 printCrowdsaleContractDetails();
 printTokenContractDetails();
 console.log("RESULT: ");
+}
 
 
 // -----------------------------------------------------------------------------
