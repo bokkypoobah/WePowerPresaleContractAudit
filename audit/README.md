@@ -17,6 +17,7 @@ No potential vulnerabilities have been identified in the crowdsale and token con
 
 ## Table Of Contents
 
+* [Updates](#updates)
 * [Recommendations](#recommendations)
 * [Potential Vulnerabilities](#potential-vulnerabilities)
 * [Scope](#scope)
@@ -29,6 +30,14 @@ No potential vulnerabilities have been identified in the crowdsale and token con
 * [Crowdsale And Token Contracts Overview](#crowdsale-and-token-contracts-overview)
 * [Code Review](#code-review)
 * [References](#references)
+
+<br />
+
+<hr />
+
+## Updates
+
+* Jul 29 2017 The crowdsale contract has been deployed to [0xc1f78d6771c5412d48939ddf06f997b23d09a7b0](https://etherscan.io/address/0xc1f78d6771c5412d48939ddf06f997b23d09a7b0).
 
 <br />
 
